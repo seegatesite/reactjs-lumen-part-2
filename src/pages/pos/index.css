@@ -1,0 +1,103 @@
+.main-pos-left {
+  background-color: #ffffff;
+  height: 100%;
+  padding: 15px;
+}
+.main-pos-right {
+  background-color: #ffffff;
+  height: 100%;
+  padding: 15px;
+}
+.main-pos {
+  height: 100%;
+  overflow: auto;
+}
+.react-datepicker-popper {
+  z-index: 9999 !important;
+}
+.container-header {
+  background-color: #cee2e4;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.container-header-1 {
+  width: 145px;
+}
+.container-header-2 {
+  flex: 1;
+}
+
+.container-cart {
+  font-size: 14px;
+}
+.container-cart .list-group-item {
+  padding: 0.5rem 0.5rem;
+}
+.recap-net {
+  font-size: 20px;
+  font-weight: 700;
+}
+.cart-name {
+  margin-bottom: 5px;
+}
+
+.cart-detail {
+  font-size: 13px;
+  display: flex;
+  flex-wrap: nowrap;
+  font-style: italic;
+}
+
+.cart-detail > .cart-1 {
+  flex: 1;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.cart-detail > .cart-2 {
+  width: 100px;
+  text-align: right;
+}
+.cart-detail > .cart-3 {
+  width: 20px;
+  text-align: right;
+}
+
+.pointer-hand {
+  cursor: pointer;
+}
+
+.container-cart-list {
+  height: 325px;
+  overflow-y: auto;
+}
+
+.container-cart-recap {
+  background-color: #dbdbdb;
+  color: black;
+}
+.recap {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 5px;
+  margin-bottom: 3px;
+}
+.recap > .title {
+  flex: 1;
+}
+
+.recap > .result {
+  width: 100px;
+  text-align: right;
+}
+
+.container-cart-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.container-cart-list {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

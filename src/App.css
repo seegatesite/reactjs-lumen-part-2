@@ -1,0 +1,62 @@
+body {
+  background-color: #d3d3d3;
+  color: #54514b;
+}
+a {
+  color: #54514b;
+}
+a:hover {
+  color: #1d1d1d;
+}
+.App-header {
+  color: #54514b;
+  padding: 5px;
+  height: auto;
+  background-color: #fec239;
+}
+.main-app {
+  padding: 20px;
+  height: calc(100vh - 60px);
+  background: #a0a0a0;
+  z-index: 9999999999;
+}
+.container-main {
+  height: 100%;
+}
+.header-col-brand {
+  background-color: #fec239;
+  padding: 5px 0;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+.form-control {
+  color: #424b4c;
+}
+.header-col-nav {
+  background-color: #fec239;
+  padding: 5px 0;
+  height: 50px;
+  display: flex;
+}
+.navlink-padding {
+  padding: 0.5rem 1rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-right: 5px;
+}
+.profile .name {
+  flex: 1;
+  margin-right: 5px;
+}
